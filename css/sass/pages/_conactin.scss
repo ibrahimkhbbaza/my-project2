@@ -1,0 +1,42 @@
+.The-Contact-Form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f6f5f5;
+    .b{
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    input,textarea{
+        box-shadow: none;
+        min-width: 100%;
+        &:hover{
+            border-color: black;
+            box-shadow: none;
+        }
+        &:active{
+            border-color: black;box-shadow: none;
+        }
+        
+    }
+    input{
+        height: 50px;
+    }
+    .section2inform{
+       
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+    }
+    span{
+        color: darkgray;
+    }
+    button{
+        padding: 15px 40px;
+    }
+    .lastp{
+        width: 200px;
+        margin: auto ;
+    }
+}

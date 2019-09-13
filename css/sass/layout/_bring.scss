@@ -1,0 +1,23 @@
+.Bring-Fun{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $mycolor;
+.row{
+    div{
+        line-height: 40px;
+        @include forxs{
+            text-align: center;
+        }
+
+    }
+    p{ padding-top: 15px;
+        font-size: 30px;
+        color: white;
+
+    }
+    button{
+        padding: 10px 45px;
+    }
+
+}
+}

@@ -1,0 +1,38 @@
+footer{ padding-top:50px;
+    padding-bottom: 50px;
+    background-color: $footcolor;
+    a{
+        color: white;
+        &:hover{
+            color: $mrcolor;
+            text-decoration: none;
+        }
+    }
+    ul {
+       
+       padding-left: 10px;
+       color: white;
+       line-height: 40px;
+       list-style: none;
+
+    }
+    .b{
+        @include fors{
+            text-align: center;
+            p{
+                text-align: center;
+                margin: auto;
+            }
+            input{
+               display: block;
+              
+               margin: auto ;
+            
+
+            }
+            .text-foot-in{
+                transform: translate(0,5px)
+            } 
+        }
+    }
+}

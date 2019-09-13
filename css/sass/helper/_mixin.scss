@@ -1,0 +1,18 @@
+@mixin fors(){
+    @media (max-width:991px){
+        @content;
+    }
+}
+   
+@mixin forxs(){
+    @media (max-width:500px){
+        @content;
+    }
+}
+@mixin formd(){
+    @media (max-width:768px){
+        @content;
+    }
+}
+   
+

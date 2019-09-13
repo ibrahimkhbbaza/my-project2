@@ -1,0 +1,47 @@
+.Pricing-Plan{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    .b{  
+        @include formd{
+            text-align: center;
+        }
+        padding-left: 10px;
+        padding-right: 10px;
+        .round-plan{
+            width: 80px;
+            height: 80px;
+            margin: auto;
+            background: $mbcolor;
+            display: inline-block;
+            text-align: center;
+            line-height: 80px;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+        .round-plan2{
+            width: 80px;
+            height: 80px;
+            margin: auto;
+            background: $mrcolor;
+            display: inline-block;
+            text-align: center;
+            line-height: 80px;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+       
+        .fristpinpri{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 18px;
+
+        }
+        .table-plan{
+            line-height: 50px;
+           
+        }
+
+    }
+
+
+}

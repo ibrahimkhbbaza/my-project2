@@ -1,0 +1,62 @@
+.section1{
+    padding-top: 150px;
+    padding-bottom: 150px;
+ .row{
+    .b{
+        padding-left:10px ;
+        padding-right:10px ;
+        p{
+            text-align: center;
+            color: white;
+            line-height: 30px;
+            font-weight: 500;
+            font-size: 17px;
+        }
+       div{
+           padding:40px 40px;
+           position: relative;
+       }
+       .card-1{
+           background: $mrcolor;
+
+       }
+       .card-2{
+           background: $my2color;
+
+       }
+       .card-3{
+           background: $mbcolor;
+
+       }
+        span{
+            position: absolute;
+            top: -30px;
+            left:50%;
+            transform: translate(-50%)
+
+            
+        }
+       i{
+           padding: 20px;
+           font-size: 30px;
+           color: white;
+           border-radius: 50%;
+
+       }
+       .ca1{
+background-color: $mrcolor;
+       }
+       .ca2{
+background-color: $my2color;
+       }
+       .ca3{
+background-color: $mbcolor;
+       }
+
+    }
+
+ }
+}
+
+
+

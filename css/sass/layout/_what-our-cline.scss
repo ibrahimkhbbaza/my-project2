@@ -1,0 +1,45 @@
+.What-Our-Client-Says{
+    background-color: #f6f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .my-slider{
+        margin-top: 10px;
+
+    }
+    
+    .carousel-item{
+   .slide-flex{display: flex;
+    flex-wrap: wrap;
+
+   }
+   background-color: $mrcolor;
+   padding: 20px;
+    .slid-img{
+        width: 30%;
+        
+        @include fors{
+       width: 30%;
+        }@include forxs{
+       width: 100%;
+        }
+        max-width: 100%;
+
+      img{
+          max-width: 80%;
+       
+      }
+    }
+    .slid-text{
+      
+width: 70%;
+@include forxs{
+    width: 100%;}
+@include forxs{
+    width: 70%;}
+.text-slide2{
+    line-height: 40px;
+}
+    }
+   
+    }
+}

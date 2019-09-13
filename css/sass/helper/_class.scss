@@ -1,0 +1,38 @@
+.text{
+    font-family: "Indie Flower", cursive;
+    color: $mrcolor;
+    font-size: 20px;
+    font-style: italic;
+   
+
+     
+}
+$b:1;
+@for $i from 1 through 5 {
+    .ha-#{$i}{
+        $b:$i *10;
+
+        font-size: #{$b}px;
+    }
+    
+}
+.text-r{
+    color: $mrcolor;
+    
+}
+.text-y{
+    color: $mycolor;
+
+}
+.text-g{
+    color: $mgcolor;
+
+}
+.text-b{
+    color: $mbcolor;
+
+}
+.text-7{
+    color: $m7color;
+
+}

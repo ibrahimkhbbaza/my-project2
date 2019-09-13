@@ -1,0 +1,49 @@
+.button-red{
+    background-color: $mrcolor;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid $mrcolor;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.button-y{
+    background-color: $my2color;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid $my2color;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.button-g{
+    background-color: $mgcolor;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid $mgcolor;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.button-b{
+    background-color: $mbcolor;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid $mbcolor;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.button-circle-r{
+    background-color: $mrcolor;
+    border: 1px solid $mrcolor;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}

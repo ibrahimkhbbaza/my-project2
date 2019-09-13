@@ -1,0 +1,50 @@
+.meet-th-team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #16c3b0;
+    .row{
+        .b{  margin: 50px 0;
+            padding-left: 10px;
+            padding-right: 10px;
+           
+        }
+        .card-meet{
+            background-color: white;
+            padding: 35px 20px;
+            position: relative;
+        }p{
+            text-align: center;
+        }
+       
+        .p1-meet{
+            font-size: 25px;
+            
+            .span-p-meet{
+                font-size: 15px;
+                color: $m7color;
+            }
+        }
+    }
+    .img-of-meet
+           { width: 80px;
+            height: 80px;
+           
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translate(-50%);
+            border-radius: 50%;
+            border: 4px solid  #16c3b0;
+
+
+
+    }
+
+}
+@for $i from 1 through 6 {
+    .prso-#{$i}{
+        background-image: url('../images/person_#{$i}.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
